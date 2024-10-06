@@ -1,0 +1,2 @@
+Prefix plugins/PValuePlot/example/
+Plugin PValuePlot inputfile groupKD.rds outputfile pvalue.pdf
