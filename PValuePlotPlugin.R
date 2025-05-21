@@ -14,6 +14,8 @@ run <- function() {}
 output <- function(outputfile) {
 pdf(outputfile)
 plotPValues(myD)
+#print(str(myD))
+write.csv(myD@results_gene$pvalue, paste(outputfile, "csv", sep="."))
 plotPValues(myD, level = "feature")
 }
 
